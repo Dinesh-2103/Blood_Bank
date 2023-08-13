@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/yr_cnt"
+        android:title="Your Content"/>
+
+    <item
+        android:id="@+id/itmLogOut"
+        android:title="Log Out"/>
+    <item
+        android:id="@+id/donorbutton"
+        android:title="profile"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_bloodtype_24">
+    </item>
+    <item
+        android:id="@+id/search_button"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/search_button_24">
+    </item>
+
+
+
+
+
+</menu>
