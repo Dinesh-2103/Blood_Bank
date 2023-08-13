@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/screen"
+    android:layout_height="match_parent"
+    tools:context=".MakeRequestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="If Willing write willing to donate /Reqest if u want Blood:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_background"
+            android:layout_margin="8dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:minLines="6"
+            android:textAlignment="gravity"
+            android:cursorVisible="false"
+            android:textColorHint="@color/black"
+            android:layout_gravity="top"
+            android:padding="10dp"/>
+        </FrameLayout>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border_background"
+            android:id="@+id/spinner"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/post_image"
+                android:padding="8dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/baseline_image_24"/>
+
+            <TextView
+                android:id="@+id/choose_text"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:gravity="center"
+                android:text="@string/choose_image"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#CF2424"
+            android:id="@+id/sumbit_button"
+
+            android:text="POST REQUEST"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

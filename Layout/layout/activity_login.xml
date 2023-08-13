@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginn"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  MEC BLOOD DONOR"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF3D00"
+            android:layout_marginTop="150dp"
+            android:textSize="40dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp">
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_background"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            app:passwordToggleEnabled="true"
+            android:layout_marginEnd="30dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+                android:background="@drawable/border_background"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/sumbit_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="30dp"
+            android:text="LOG IN"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dont have an account?"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/sign_up_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sign_up"
+            android:textAlignment="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
